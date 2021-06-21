@@ -1,10 +1,10 @@
-﻿using AppBanco_Console.Data;
-using AppBanco_Console.Models;
-using AppBanco_Console.Output;
+﻿using AppBanco.Data;
+using AppBanco_Models;
+using AppBanco_Output;
 using System;
 using System.Collections.Generic;
 
-namespace AppBanco_Console
+namespace AppBanco
 {
     class Program
     {

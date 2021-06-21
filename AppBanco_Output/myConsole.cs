@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace AppBanco_Console.Output
+namespace AppBanco_Output
 {
-    static class myConsole
+    public static class myConsole
     {
         public enum ConsoleMode { None, Error, Success, Pause, Writing}
 

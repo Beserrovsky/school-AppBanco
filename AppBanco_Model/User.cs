@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace AppBanco_Console.Models
+namespace AppBanco_Models
 {
-    class User
+    public class User
     {
         public int Id { get; set; } = -1;
         public string Name { get; set; }

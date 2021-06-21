@@ -4,7 +4,7 @@ using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 
-namespace AppBanco.Data
+namespace AppBanco_Data
 {
     public class UserDAO
     {

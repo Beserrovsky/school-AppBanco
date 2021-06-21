@@ -3,7 +3,7 @@ using System.Configuration;
 using System.Data;
 using MySql.Data.MySqlClient;
 
-namespace AppBanco.Data
+namespace AppBanco_Data
 {
     class Database : IDisposable
     {

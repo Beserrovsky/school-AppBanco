@@ -88,14 +88,22 @@
   <ItemGroup>
     <Compile Include="Data\Database.cs" />
     <Compile Include="Data\UserDAO.cs" />
-    <Compile Include="Model\User.cs" />
-    <Compile Include="Output\myConsole.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="AppBanco_Model\AppBanco_Models.csproj">
+      <Project>{4bd18636-8248-4678-bd56-3b49519e030b}</Project>
+      <Name>AppBanco_Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="AppBanco_Output\AppBanco_Output.csproj">
+      <Project>{10a35c19-40fe-42f7-8d21-4c38bbb99faa}</Project>
+      <Name>AppBanco_Output</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
